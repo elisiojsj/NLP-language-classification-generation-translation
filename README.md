@@ -1,13 +1,16 @@
 # NLP language classification, generation and translation models
 This is a series of models for NLP (Natural Language Processing).
 
-## Language classification
+## [Language classification](https://github.com/elisiojsj/NLP-language-classification-generation-translation/blob/master/language_classification.ipynb)
 The objective of this project is to train a simple RNN to on words of different languages and to verify if it learned to identify the style of each language.
 
-## Language generation
+## [Language classification with LSTM and GRU](https://github.com/elisiojsj/NLP-language-classification-generation-translation/blob/master/language_classification-LSTM-GRU.ipynb)
+This is the same as the above language classification but using LSTM and GRU units.
+
+## [Language generation](https://github.com/elisiojsj/NLP-language-classification-generation-translation/blob/master/language_generation.ipynb)
 In this model we are training a simple RNN on a set of words of different languages for it to understand each one sequence patterns. After trained it's possible to generate words on each of the languages based on the learned patterns.
 
-## Language translation
+## [Language translation](https://github.com/elisiojsj/NLP-language-classification-generation-translation/blob/master/language_translation.ipynb)
 This is a English - Japanese translation model, the dataset and the code can be adapted for any other pair of languages. As the dataset file was huge we used some filters based on the English sentences. 
 To tokenize Japanese words it's necessary to use [mecab-python3](https://pypi.org/project/mecab-python3/) to separate the basic structures as Japanese, contrary to European languages doesn't have space between words.
 The translation model uses [LSTMs](https://colah.github.io/posts/2015-08-Understanding-LSTMs/) and [Attention](https://distill.pub/2016/augmented-rnns/)
